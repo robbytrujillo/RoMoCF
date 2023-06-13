@@ -1,10 +1,13 @@
 # penyelewengan-dana-kampanye
-# author : 2111601809 - Robby Ilhamkusuma 
+
+# author : 2111601809 - Robby Ilhamkusuma
 
 Versi PHP: 7.4.30
 
 1. Petugas :
-------------
+
+---
+
 Admin\
 Username : admin\
 Pass : admin123
@@ -18,7 +21,9 @@ Username : petugas2\
 Pass : petugas2
 
 2. Masyarakat Pelapor
----------------------
+
+---
+
 asep
 Username : asep
 pass : asep1234
@@ -26,7 +31,6 @@ pass : asep1234
 udin
 username : udin
 pass : udin1234
-
 
 # Codeigniter SBAdmin2
 
@@ -68,20 +72,6 @@ These instructions will get you a copy of the project up and running on your loc
     |   |   ├── forgotpass_v.php
     |   |   ├── login_v.php
     |   |   ├── register_v.php
-
-### Code structure in method ( function )
-
-```
- public function index(){
-        $data['title'] = 'Admin area';
-        $this->load->view('_part/backend_head', $data);
-        $this->load->view('_part/backend_sidebar_v');
-        $this->load->view('_part/backend_topbar_v');
-        $this->load->view('backend/admin_v');
-        $this->load->view('_part/backend_footer_v');
-        $this->load->view('_part/backend_foot');
-    }
-```
 
 ### Prerequisites
 
